@@ -19,21 +19,15 @@ namespace Onus
         public int goalSleepHours { get; set; }
         public int goalCupsOfWater { get; set; }
         public int goalSteps { get; set; }
-        public virtual List <Water> waterEntries { get; set; } 
-        public virtual List <Budget> budgetEntries { get; set; } 
-        public virtual List <Diet> dietEntries { get; set; } 
-        public virtual List <Exercise> exerciseEntries { get; set; }
-
-        internal object Include(Func<object, object> p)
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual List <Meditation> meditationEntries { get; set; } 
-        public virtual List <Positivity> positivityEntries { get; set; } 
-        public virtual List <Sleep> sleepEntries { get; set; } 
-        public virtual List <Steps> stepsEntries { get; set; } 
-        public virtual List <Todo> todoEntries { get; set; } 
+        public List <Water> waterEntries { get; set; } 
+        public List <Budget> budgetEntries { get; set; } 
+        public List <Diet> dietEntries { get; set; } 
+        public List <Exercise> exerciseEntries { get; set; }
+        public List <Meditation> meditationEntries { get; set; } 
+        public List <Positivity> positivityEntries { get; set; } 
+        public List <Sleep> sleepEntries { get; set; } 
+        public List <Steps> stepsEntries { get; set; } 
+        public List <Todo> todoEntries { get; set; } 
 
     }
 

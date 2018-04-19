@@ -19,7 +19,7 @@ namespace Onus
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:5000", "http://10.0.1.55:5000")
+                .UseUrls("http://localhost:5000")
                 .Build();
     }
 }
